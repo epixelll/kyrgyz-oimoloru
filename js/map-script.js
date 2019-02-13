@@ -179,12 +179,12 @@ function goMap () {
 		// To add the marker to the map 
 		  var image = 'images/logo/map.png';
 		  var beachMarker = new google.maps.Marker({
-		    position: {lat: 40.925372, lng: -74.276544},
+		    position: {lat: 42.875613, lng: 74.611592},
 		    map: map,
 		    icon: image,
-		    title:"BipPro Office!",
+		    title:"Биздин дарек!",
 		    infoWindow: {
-	            content: '<h6>Bizpro office</h6> <p>Gazipur,Dhaka</p>'
+	            content: '<h6>Биздин дарек</h6> <p>Биздин дарек</p>'
 	          }
 		  });
   };
